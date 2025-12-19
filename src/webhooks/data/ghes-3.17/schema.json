@@ -1235,7 +1235,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1394,6 +1395,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1592,7 +1620,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1751,6 +1780,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1949,7 +2005,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2108,6 +2165,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2306,7 +2390,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2465,6 +2550,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2707,7 +2819,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2866,6 +2979,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -3164,26 +3304,6 @@
                       "type": "object",
                       "name": "Simple User",
                       "description": "<p>A GitHub user.</p>",
-                      "isRequired": [
-                        "avatar_url",
-                        "events_url",
-                        "followers_url",
-                        "following_url",
-                        "gists_url",
-                        "gravatar_id",
-                        "html_url",
-                        "id",
-                        "node_id",
-                        "login",
-                        "organizations_url",
-                        "received_events_url",
-                        "repos_url",
-                        "site_admin",
-                        "starred_url",
-                        "subscriptions_url",
-                        "type",
-                        "url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -3319,16 +3439,6 @@
                       "type": "object",
                       "name": "Enterprise",
                       "description": "<p>An enterprise on GitHub.</p>",
-                      "isRequired": [
-                        "id",
-                        "node_id",
-                        "name",
-                        "slug",
-                        "html_url",
-                        "created_at",
-                        "updated_at",
-                        "avatar_url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -3523,26 +3633,6 @@
                           "type": "object",
                           "name": "Simple User",
                           "description": "<p>A GitHub user.</p>",
-                          "isRequired": [
-                            "avatar_url",
-                            "events_url",
-                            "followers_url",
-                            "following_url",
-                            "gists_url",
-                            "gravatar_id",
-                            "html_url",
-                            "id",
-                            "node_id",
-                            "login",
-                            "organizations_url",
-                            "received_events_url",
-                            "repos_url",
-                            "site_admin",
-                            "starred_url",
-                            "subscriptions_url",
-                            "type",
-                            "url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -3678,16 +3768,6 @@
                           "type": "object",
                           "name": "Enterprise",
                           "description": "<p>An enterprise on GitHub.</p>",
-                          "isRequired": [
-                            "id",
-                            "node_id",
-                            "name",
-                            "slug",
-                            "html_url",
-                            "created_at",
-                            "updated_at",
-                            "avatar_url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -5265,26 +5345,6 @@
                       "type": "object",
                       "name": "Simple User",
                       "description": "<p>A GitHub user.</p>",
-                      "isRequired": [
-                        "avatar_url",
-                        "events_url",
-                        "followers_url",
-                        "following_url",
-                        "gists_url",
-                        "gravatar_id",
-                        "html_url",
-                        "id",
-                        "node_id",
-                        "login",
-                        "organizations_url",
-                        "received_events_url",
-                        "repos_url",
-                        "site_admin",
-                        "starred_url",
-                        "subscriptions_url",
-                        "type",
-                        "url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -5420,16 +5480,6 @@
                       "type": "object",
                       "name": "Enterprise",
                       "description": "<p>An enterprise on GitHub.</p>",
-                      "isRequired": [
-                        "id",
-                        "node_id",
-                        "name",
-                        "slug",
-                        "html_url",
-                        "created_at",
-                        "updated_at",
-                        "avatar_url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -5624,26 +5674,6 @@
                           "type": "object",
                           "name": "Simple User",
                           "description": "<p>A GitHub user.</p>",
-                          "isRequired": [
-                            "avatar_url",
-                            "events_url",
-                            "followers_url",
-                            "following_url",
-                            "gists_url",
-                            "gravatar_id",
-                            "html_url",
-                            "id",
-                            "node_id",
-                            "login",
-                            "organizations_url",
-                            "received_events_url",
-                            "repos_url",
-                            "site_admin",
-                            "starred_url",
-                            "subscriptions_url",
-                            "type",
-                            "url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -5779,16 +5809,6 @@
                           "type": "object",
                           "name": "Enterprise",
                           "description": "<p>An enterprise on GitHub.</p>",
-                          "isRequired": [
-                            "id",
-                            "node_id",
-                            "name",
-                            "slug",
-                            "html_url",
-                            "created_at",
-                            "updated_at",
-                            "avatar_url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -7367,26 +7387,6 @@
                       "type": "object",
                       "name": "Simple User",
                       "description": "<p>A GitHub user.</p>",
-                      "isRequired": [
-                        "avatar_url",
-                        "events_url",
-                        "followers_url",
-                        "following_url",
-                        "gists_url",
-                        "gravatar_id",
-                        "html_url",
-                        "id",
-                        "node_id",
-                        "login",
-                        "organizations_url",
-                        "received_events_url",
-                        "repos_url",
-                        "site_admin",
-                        "starred_url",
-                        "subscriptions_url",
-                        "type",
-                        "url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -7522,16 +7522,6 @@
                       "type": "object",
                       "name": "Enterprise",
                       "description": "<p>An enterprise on GitHub.</p>",
-                      "isRequired": [
-                        "id",
-                        "node_id",
-                        "name",
-                        "slug",
-                        "html_url",
-                        "created_at",
-                        "updated_at",
-                        "avatar_url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -7726,26 +7716,6 @@
                           "type": "object",
                           "name": "Simple User",
                           "description": "<p>A GitHub user.</p>",
-                          "isRequired": [
-                            "avatar_url",
-                            "events_url",
-                            "followers_url",
-                            "following_url",
-                            "gists_url",
-                            "gravatar_id",
-                            "html_url",
-                            "id",
-                            "node_id",
-                            "login",
-                            "organizations_url",
-                            "received_events_url",
-                            "repos_url",
-                            "site_admin",
-                            "starred_url",
-                            "subscriptions_url",
-                            "type",
-                            "url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -7881,16 +7851,6 @@
                           "type": "object",
                           "name": "Enterprise",
                           "description": "<p>An enterprise on GitHub.</p>",
-                          "isRequired": [
-                            "id",
-                            "node_id",
-                            "name",
-                            "slug",
-                            "html_url",
-                            "created_at",
-                            "updated_at",
-                            "avatar_url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -9481,26 +9441,6 @@
                       "type": "object",
                       "name": "Simple User",
                       "description": "<p>A GitHub user.</p>",
-                      "isRequired": [
-                        "avatar_url",
-                        "events_url",
-                        "followers_url",
-                        "following_url",
-                        "gists_url",
-                        "gravatar_id",
-                        "html_url",
-                        "id",
-                        "node_id",
-                        "login",
-                        "organizations_url",
-                        "received_events_url",
-                        "repos_url",
-                        "site_admin",
-                        "starred_url",
-                        "subscriptions_url",
-                        "type",
-                        "url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -9636,16 +9576,6 @@
                       "type": "object",
                       "name": "Enterprise",
                       "description": "<p>An enterprise on GitHub.</p>",
-                      "isRequired": [
-                        "id",
-                        "node_id",
-                        "name",
-                        "slug",
-                        "html_url",
-                        "created_at",
-                        "updated_at",
-                        "avatar_url"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string or null",
@@ -9840,26 +9770,6 @@
                           "type": "object",
                           "name": "Simple User",
                           "description": "<p>A GitHub user.</p>",
-                          "isRequired": [
-                            "avatar_url",
-                            "events_url",
-                            "followers_url",
-                            "following_url",
-                            "gists_url",
-                            "gravatar_id",
-                            "html_url",
-                            "id",
-                            "node_id",
-                            "login",
-                            "organizations_url",
-                            "received_events_url",
-                            "repos_url",
-                            "site_admin",
-                            "starred_url",
-                            "subscriptions_url",
-                            "type",
-                            "url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -9995,16 +9905,6 @@
                           "type": "object",
                           "name": "Enterprise",
                           "description": "<p>An enterprise on GitHub.</p>",
-                          "isRequired": [
-                            "id",
-                            "node_id",
-                            "name",
-                            "slug",
-                            "html_url",
-                            "created_at",
-                            "updated_at",
-                            "avatar_url"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string or null",
@@ -12669,6 +12569,15 @@
                     },
                     {
                       "type": "string",
+                      "name": "artifact_metadata",
+                      "description": "",
+                      "enum": [
+                        "read",
+                        "write"
+                      ]
+                    },
+                    {
+                      "type": "string",
                       "name": "attestations",
                       "description": "",
                       "enum": [
@@ -12700,6 +12609,14 @@
                       "description": "",
                       "enum": [
                         "read",
+                        "write"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "name": "copilot_requests",
+                      "description": "",
+                      "enum": [
                         "write"
                       ]
                     },
@@ -13602,6 +13519,15 @@
                     },
                     {
                       "type": "string",
+                      "name": "artifact_metadata",
+                      "description": "",
+                      "enum": [
+                        "read",
+                        "write"
+                      ]
+                    },
+                    {
+                      "type": "string",
                       "name": "attestations",
                       "description": "",
                       "enum": [
@@ -13633,6 +13559,14 @@
                       "description": "",
                       "enum": [
                         "read",
+                        "write"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "name": "copilot_requests",
+                      "description": "",
+                      "enum": [
                         "write"
                       ]
                     },
@@ -16644,7 +16578,7 @@
           "childParamsGroups": []
         },
         {
-          "type": "object or null",
+          "type": "object",
           "name": "alert",
           "in": "body",
           "description": "<p>The code scanning alert involved in the event.</p>",
@@ -16824,6 +16758,11 @@
               "name": "html_url",
               "description": "<p>The GitHub URL of the alert resource.</p>",
               "isRequired": true
+            },
+            {
+              "type": "string",
+              "name": "instances_url",
+              "description": ""
             },
             {
               "type": "object or null",
@@ -17022,10 +16961,20 @@
               ]
             },
             {
+              "type": "string or null",
+              "name": "updated_at",
+              "description": ""
+            },
+            {
               "type": "string",
               "name": "url",
               "description": "",
               "isRequired": true
+            },
+            {
+              "type": "null",
+              "name": "dismissal_approved_by",
+              "description": ""
             }
           ]
         },
@@ -18780,6 +18729,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -19429,6 +19428,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20078,6 +20127,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20727,6 +20826,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -21376,6 +21525,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -22025,6 +22224,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -22674,6 +22923,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -37296,7 +37595,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -38014,7 +38312,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -38648,7 +38945,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -39282,7 +39578,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -39916,7 +40211,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -40584,7 +40878,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -41218,7 +41511,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -41903,7 +42195,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -42537,7 +42828,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -43171,7 +43461,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -43811,7 +44100,6 @@
                   "type": "string",
                   "name": "author_association",
                   "description": "<p>How the author is associated with the repository.</p>",
-                  "isRequired": true,
                   "enum": [
                     "COLLABORATOR",
                     "CONTRIBUTOR",
@@ -45903,7 +46191,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -46537,7 +46824,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -47433,7 +47719,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -48118,7 +48403,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -48752,7 +49036,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -49396,7 +49679,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -50038,7 +50320,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -50703,7 +50984,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -51253,7 +51533,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -51412,6 +51693,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -51610,7 +51918,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -51778,6 +52087,33 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "oneOfObject": true
@@ -51929,10 +52265,10 @@
       "category": "dismissal_request_code_scanning"
     }
   },
-  "dismissal_request_secret_scanning": {
+  "dismissal_request_dependabot": {
     "cancelled": {
-      "descriptionHtml": "<p>A secret scanning alert dismissal request was canceled.</p>",
-      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a secret scanning alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Secret scanning alerts\" repository permission.</p>\n<p>[!NOTE]\nDelegated alert dismissal for secret scanning is currently in public preview and subject to change.</p>",
+      "descriptionHtml": "<p>A Dependabot alert dismissal request was canceled.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
       "bodyParameters": [
         {
           "type": "string",
@@ -52013,7 +52349,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -52172,6 +52509,1234 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "cancelled",
+      "category": "dismissal_request_dependabot"
+    },
+    "created": {
+      "descriptionHtml": "<p>A Dependabot alert dismissal request was created.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "created"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "created",
+      "category": "dismissal_request_dependabot"
+    },
+    "response_submitted": {
+      "descriptionHtml": "<p>A Dependabot alert dismissal request received a response.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "response_submitted"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "exemption_response",
+          "in": "body",
+          "description": "<p>A response to an exemption request by a delegated bypasser.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption response.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "reviewer_id",
+              "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "reviewer_login",
+              "description": "<p>The login of the user who reviewed the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption response.</p>",
+              "enum": [
+                "approved",
+                "rejected",
+                "dismissed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "reviewer_comment",
+              "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "response_submitted",
+      "category": "dismissal_request_dependabot"
+    }
+  },
+  "dismissal_request_secret_scanning": {
+    "cancelled": {
+      "descriptionHtml": "<p>A secret scanning alert dismissal request was canceled.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a secret scanning alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Secret scanning alerts\" repository permission.</p>\n<p>[!NOTE]\nDelegated alert dismissal for secret scanning is currently in public preview and subject to change.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "cancelled"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.17/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -52370,7 +53935,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -52529,6 +54095,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -52727,7 +54320,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -52886,6 +54480,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -53084,7 +54705,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -53243,6 +54865,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -53485,7 +55134,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -53644,6 +55294,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -53948,7 +55625,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -54107,6 +55785,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -54305,7 +56010,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -54464,6 +56170,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -54662,7 +56395,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -54821,6 +56555,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -55019,7 +56780,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -55178,6 +56940,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -55420,7 +57209,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -55579,6 +57369,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -107053,10 +108870,8 @@
           "childParamsGroups": [
             {
               "type": "object",
+              "name": "",
               "description": "",
-              "isRequired": [
-                "field_value"
-              ],
               "childParamsGroups": [
                 {
                   "type": "object",
@@ -107100,10 +108915,8 @@
             },
             {
               "type": "object",
+              "name": "",
               "description": "",
-              "isRequired": [
-                "body"
-              ],
               "childParamsGroups": [
                 {
                   "type": "object",
@@ -206712,9 +208525,6 @@
                   "type": "object",
                   "name": "creation",
                   "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206731,9 +208541,6 @@
                   "type": "object",
                   "name": "update",
                   "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206763,9 +208570,6 @@
                   "type": "object",
                   "name": "deletion",
                   "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206782,9 +208586,6 @@
                   "type": "object",
                   "name": "required_linear_history",
                   "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206801,9 +208602,6 @@
                   "type": "object",
                   "name": "merge_queue",
                   "description": "<p>Merges must be performed via a merge queue.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206878,9 +208676,6 @@
                   "type": "object",
                   "name": "required_deployments",
                   "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206910,9 +208705,6 @@
                   "type": "object",
                   "name": "required_signatures",
                   "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206929,9 +208721,6 @@
                   "type": "object",
                   "name": "pull_request",
                   "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -206951,11 +208740,6 @@
                           "type": "array of strings",
                           "name": "allowed_merge_methods",
                           "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                        },
-                        {
-                          "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                         },
                         {
                           "type": "boolean",
@@ -207037,9 +208821,6 @@
                   "type": "object",
                   "name": "required_status_checks",
                   "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207093,9 +208874,6 @@
                   "type": "object",
                   "name": "non_fast_forward",
                   "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207112,9 +208890,6 @@
                   "type": "object",
                   "name": "commit_message_pattern",
                   "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207166,9 +208941,6 @@
                   "type": "object",
                   "name": "commit_author_email_pattern",
                   "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207220,9 +208992,6 @@
                   "type": "object",
                   "name": "committer_email_pattern",
                   "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207274,9 +209043,6 @@
                   "type": "object",
                   "name": "branch_name_pattern",
                   "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207328,9 +209094,6 @@
                   "type": "object",
                   "name": "tag_name_pattern",
                   "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207382,9 +209145,6 @@
                   "type": "object",
                   "name": "file_path_restriction",
                   "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207414,9 +209174,6 @@
                   "type": "object",
                   "name": "max_file_path_length",
                   "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207446,9 +209203,6 @@
                   "type": "object",
                   "name": "file_extension_restriction",
                   "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207478,9 +209232,6 @@
                   "type": "object",
                   "name": "max_file_size",
                   "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207510,9 +209261,6 @@
                   "type": "object",
                   "name": "workflows",
                   "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207571,9 +209319,6 @@
                   "type": "object",
                   "name": "code_scanning",
                   "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207635,10 +209380,7 @@
                 {
                   "type": "object",
                   "name": "copilot_code_review",
-                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
+                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207894,9 +209636,6 @@
                   "type": "object",
                   "name": "creation",
                   "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207913,9 +209652,6 @@
                   "type": "object",
                   "name": "update",
                   "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207945,9 +209681,6 @@
                   "type": "object",
                   "name": "deletion",
                   "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207964,9 +209697,6 @@
                   "type": "object",
                   "name": "required_linear_history",
                   "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -207983,9 +209713,6 @@
                   "type": "object",
                   "name": "merge_queue",
                   "description": "<p>Merges must be performed via a merge queue.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208060,9 +209787,6 @@
                   "type": "object",
                   "name": "required_deployments",
                   "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208092,9 +209816,6 @@
                   "type": "object",
                   "name": "required_signatures",
                   "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208111,9 +209832,6 @@
                   "type": "object",
                   "name": "pull_request",
                   "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208133,11 +209851,6 @@
                           "type": "array of strings",
                           "name": "allowed_merge_methods",
                           "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                        },
-                        {
-                          "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                         },
                         {
                           "type": "boolean",
@@ -208219,9 +209932,6 @@
                   "type": "object",
                   "name": "required_status_checks",
                   "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208275,9 +209985,6 @@
                   "type": "object",
                   "name": "non_fast_forward",
                   "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208294,9 +210001,6 @@
                   "type": "object",
                   "name": "commit_message_pattern",
                   "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208348,9 +210052,6 @@
                   "type": "object",
                   "name": "commit_author_email_pattern",
                   "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208402,9 +210103,6 @@
                   "type": "object",
                   "name": "committer_email_pattern",
                   "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208456,9 +210154,6 @@
                   "type": "object",
                   "name": "branch_name_pattern",
                   "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208510,9 +210205,6 @@
                   "type": "object",
                   "name": "tag_name_pattern",
                   "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208564,9 +210256,6 @@
                   "type": "object",
                   "name": "file_path_restriction",
                   "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208596,9 +210285,6 @@
                   "type": "object",
                   "name": "max_file_path_length",
                   "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208628,9 +210314,6 @@
                   "type": "object",
                   "name": "file_extension_restriction",
                   "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208660,9 +210343,6 @@
                   "type": "object",
                   "name": "max_file_size",
                   "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208692,9 +210372,6 @@
                   "type": "object",
                   "name": "workflows",
                   "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208753,9 +210430,6 @@
                   "type": "object",
                   "name": "code_scanning",
                   "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -208817,10 +210491,7 @@
                 {
                   "type": "object",
                   "name": "copilot_code_review",
-                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
+                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209076,9 +210747,6 @@
                   "type": "object",
                   "name": "creation",
                   "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209095,9 +210763,6 @@
                   "type": "object",
                   "name": "update",
                   "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209127,9 +210792,6 @@
                   "type": "object",
                   "name": "deletion",
                   "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209146,9 +210808,6 @@
                   "type": "object",
                   "name": "required_linear_history",
                   "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209165,9 +210824,6 @@
                   "type": "object",
                   "name": "merge_queue",
                   "description": "<p>Merges must be performed via a merge queue.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209242,9 +210898,6 @@
                   "type": "object",
                   "name": "required_deployments",
                   "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209274,9 +210927,6 @@
                   "type": "object",
                   "name": "required_signatures",
                   "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209293,9 +210943,6 @@
                   "type": "object",
                   "name": "pull_request",
                   "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209315,11 +210962,6 @@
                           "type": "array of strings",
                           "name": "allowed_merge_methods",
                           "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                        },
-                        {
-                          "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                         },
                         {
                           "type": "boolean",
@@ -209401,9 +211043,6 @@
                   "type": "object",
                   "name": "required_status_checks",
                   "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209457,9 +211096,6 @@
                   "type": "object",
                   "name": "non_fast_forward",
                   "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209476,9 +211112,6 @@
                   "type": "object",
                   "name": "commit_message_pattern",
                   "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209530,9 +211163,6 @@
                   "type": "object",
                   "name": "commit_author_email_pattern",
                   "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209584,9 +211214,6 @@
                   "type": "object",
                   "name": "committer_email_pattern",
                   "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209638,9 +211265,6 @@
                   "type": "object",
                   "name": "branch_name_pattern",
                   "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209692,9 +211316,6 @@
                   "type": "object",
                   "name": "tag_name_pattern",
                   "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209746,9 +211367,6 @@
                   "type": "object",
                   "name": "file_path_restriction",
                   "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209778,9 +211396,6 @@
                   "type": "object",
                   "name": "max_file_path_length",
                   "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209810,9 +211425,6 @@
                   "type": "object",
                   "name": "file_extension_restriction",
                   "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209842,9 +211454,6 @@
                   "type": "object",
                   "name": "max_file_size",
                   "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209874,9 +211483,6 @@
                   "type": "object",
                   "name": "workflows",
                   "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209935,9 +211541,6 @@
                   "type": "object",
                   "name": "code_scanning",
                   "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -209999,10 +211602,7 @@
                 {
                   "type": "object",
                   "name": "copilot_code_review",
-                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                  "isRequired": [
-                    "type"
-                  ],
+                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -210232,9 +211832,6 @@
                       "type": "object",
                       "name": "creation",
                       "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210251,9 +211848,6 @@
                       "type": "object",
                       "name": "update",
                       "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210283,9 +211877,6 @@
                       "type": "object",
                       "name": "deletion",
                       "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210302,9 +211893,6 @@
                       "type": "object",
                       "name": "required_linear_history",
                       "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210321,9 +211909,6 @@
                       "type": "object",
                       "name": "merge_queue",
                       "description": "<p>Merges must be performed via a merge queue.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210398,9 +211983,6 @@
                       "type": "object",
                       "name": "required_deployments",
                       "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210430,9 +212012,6 @@
                       "type": "object",
                       "name": "required_signatures",
                       "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210449,9 +212028,6 @@
                       "type": "object",
                       "name": "pull_request",
                       "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210471,11 +212047,6 @@
                               "type": "array of strings",
                               "name": "allowed_merge_methods",
                               "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                            },
-                            {
-                              "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                             },
                             {
                               "type": "boolean",
@@ -210557,9 +212128,6 @@
                       "type": "object",
                       "name": "required_status_checks",
                       "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210613,9 +212181,6 @@
                       "type": "object",
                       "name": "non_fast_forward",
                       "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210632,9 +212197,6 @@
                       "type": "object",
                       "name": "commit_message_pattern",
                       "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210686,9 +212248,6 @@
                       "type": "object",
                       "name": "commit_author_email_pattern",
                       "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210740,9 +212299,6 @@
                       "type": "object",
                       "name": "committer_email_pattern",
                       "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210794,9 +212350,6 @@
                       "type": "object",
                       "name": "branch_name_pattern",
                       "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210848,9 +212401,6 @@
                       "type": "object",
                       "name": "tag_name_pattern",
                       "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210902,9 +212452,6 @@
                       "type": "object",
                       "name": "file_path_restriction",
                       "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210934,9 +212481,6 @@
                       "type": "object",
                       "name": "max_file_path_length",
                       "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210966,9 +212510,6 @@
                       "type": "object",
                       "name": "file_extension_restriction",
                       "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -210998,9 +212539,6 @@
                       "type": "object",
                       "name": "max_file_size",
                       "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211030,9 +212568,6 @@
                       "type": "object",
                       "name": "workflows",
                       "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211091,9 +212626,6 @@
                       "type": "object",
                       "name": "code_scanning",
                       "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211155,10 +212687,7 @@
                     {
                       "type": "object",
                       "name": "copilot_code_review",
-                      "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
+                      "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211200,9 +212729,6 @@
                       "type": "object",
                       "name": "creation",
                       "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211219,9 +212745,6 @@
                       "type": "object",
                       "name": "update",
                       "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211251,9 +212774,6 @@
                       "type": "object",
                       "name": "deletion",
                       "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211270,9 +212790,6 @@
                       "type": "object",
                       "name": "required_linear_history",
                       "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211289,9 +212806,6 @@
                       "type": "object",
                       "name": "merge_queue",
                       "description": "<p>Merges must be performed via a merge queue.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211366,9 +212880,6 @@
                       "type": "object",
                       "name": "required_deployments",
                       "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211398,9 +212909,6 @@
                       "type": "object",
                       "name": "required_signatures",
                       "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211417,9 +212925,6 @@
                       "type": "object",
                       "name": "pull_request",
                       "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211439,11 +212944,6 @@
                               "type": "array of strings",
                               "name": "allowed_merge_methods",
                               "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                            },
-                            {
-                              "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                             },
                             {
                               "type": "boolean",
@@ -211525,9 +213025,6 @@
                       "type": "object",
                       "name": "required_status_checks",
                       "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211581,9 +213078,6 @@
                       "type": "object",
                       "name": "non_fast_forward",
                       "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211600,9 +213094,6 @@
                       "type": "object",
                       "name": "commit_message_pattern",
                       "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211654,9 +213145,6 @@
                       "type": "object",
                       "name": "commit_author_email_pattern",
                       "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211708,9 +213196,6 @@
                       "type": "object",
                       "name": "committer_email_pattern",
                       "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211762,9 +213247,6 @@
                       "type": "object",
                       "name": "branch_name_pattern",
                       "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211816,9 +213298,6 @@
                       "type": "object",
                       "name": "tag_name_pattern",
                       "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211870,9 +213349,6 @@
                       "type": "object",
                       "name": "file_path_restriction",
                       "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211902,9 +213378,6 @@
                       "type": "object",
                       "name": "max_file_path_length",
                       "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211934,9 +213407,6 @@
                       "type": "object",
                       "name": "file_extension_restriction",
                       "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211966,9 +213436,6 @@
                       "type": "object",
                       "name": "max_file_size",
                       "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -211998,9 +213465,6 @@
                       "type": "object",
                       "name": "workflows",
                       "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -212059,9 +213523,6 @@
                       "type": "object",
                       "name": "code_scanning",
                       "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -212123,10 +213584,7 @@
                     {
                       "type": "object",
                       "name": "copilot_code_review",
-                      "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                      "isRequired": [
-                        "type"
-                      ],
+                      "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -212173,9 +213631,6 @@
                           "type": "object",
                           "name": "creation",
                           "description": "<p>Only allow users with bypass permission to create matching refs.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212192,9 +213647,6 @@
                           "type": "object",
                           "name": "update",
                           "description": "<p>Only allow users with bypass permission to update matching refs.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212224,9 +213676,6 @@
                           "type": "object",
                           "name": "deletion",
                           "description": "<p>Only allow users with bypass permissions to delete matching refs.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212243,9 +213692,6 @@
                           "type": "object",
                           "name": "required_linear_history",
                           "description": "<p>Prevent merge commits from being pushed to matching refs.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212262,9 +213708,6 @@
                           "type": "object",
                           "name": "merge_queue",
                           "description": "<p>Merges must be performed via a merge queue.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212339,9 +213782,6 @@
                           "type": "object",
                           "name": "required_deployments",
                           "description": "<p>Choose which environments must be successfully deployed to before refs can be pushed into a ref that matches this rule.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212371,9 +213811,6 @@
                           "type": "object",
                           "name": "required_signatures",
                           "description": "<p>Commits pushed to matching refs must have verified signatures.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212390,9 +213827,6 @@
                           "type": "object",
                           "name": "pull_request",
                           "description": "<p>Require all commits be made to a non-target branch and submitted via a pull request before they can be merged.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212412,11 +213846,6 @@
                                   "type": "array of strings",
                                   "name": "allowed_merge_methods",
                                   "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                                },
-                                {
-                                  "type": "boolean",
-                                  "name": "automatic_copilot_code_review_enabled",
-                                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>"
                                 },
                                 {
                                   "type": "boolean",
@@ -212498,9 +213927,6 @@
                           "type": "object",
                           "name": "required_status_checks",
                           "description": "<p>Choose which status checks must pass before the ref is updated. When enabled, commits must first be pushed to another ref where the checks pass.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212554,9 +213980,6 @@
                           "type": "object",
                           "name": "non_fast_forward",
                           "description": "<p>Prevent users with push access from force pushing to refs.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212573,9 +213996,6 @@
                           "type": "object",
                           "name": "commit_message_pattern",
                           "description": "<p>Parameters to be used for the commit_message_pattern rule</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212627,9 +214047,6 @@
                           "type": "object",
                           "name": "commit_author_email_pattern",
                           "description": "<p>Parameters to be used for the commit_author_email_pattern rule</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212681,9 +214098,6 @@
                           "type": "object",
                           "name": "committer_email_pattern",
                           "description": "<p>Parameters to be used for the committer_email_pattern rule</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212735,9 +214149,6 @@
                           "type": "object",
                           "name": "branch_name_pattern",
                           "description": "<p>Parameters to be used for the branch_name_pattern rule</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212789,9 +214200,6 @@
                           "type": "object",
                           "name": "tag_name_pattern",
                           "description": "<p>Parameters to be used for the tag_name_pattern rule</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212843,9 +214251,6 @@
                           "type": "object",
                           "name": "file_path_restriction",
                           "description": "<p>Prevent commits that include changes in specified file and folder paths from being pushed to the commit graph. This includes absolute paths that contain file names.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212875,9 +214280,6 @@
                           "type": "object",
                           "name": "max_file_path_length",
                           "description": "<p>Prevent commits that include file paths that exceed the specified character limit from being pushed to the commit graph.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212907,9 +214309,6 @@
                           "type": "object",
                           "name": "file_extension_restriction",
                           "description": "<p>Prevent commits that include files with specified file extensions from being pushed to the commit graph.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212939,9 +214338,6 @@
                           "type": "object",
                           "name": "max_file_size",
                           "description": "<p>Prevent commits with individual files that exceed the specified limit from being pushed to the commit graph.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -212971,9 +214367,6 @@
                           "type": "object",
                           "name": "workflows",
                           "description": "<p>Require all changes made to a targeted branch to pass the specified workflows before they can be merged.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -213032,9 +214425,6 @@
                           "type": "object",
                           "name": "code_scanning",
                           "description": "<p>Choose which tools must provide code scanning results before the reference is updated. When configured, code scanning must be enabled and have results for both the commit and the reference being updated.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -213096,10 +214486,7 @@
                         {
                           "type": "object",
                           "name": "copilot_code_review",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review.</p>",
-                          "isRequired": [
-                            "type"
-                          ],
+                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>",
                           "childParamsGroups": [
                             {
                               "type": "string",
@@ -217231,18 +218618,8 @@
               "childParamsGroups": [
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'commit' secret scanning location type. This location type shows that a secret was detected inside a commit to a repository.</p>",
-                  "isRequired": [
-                    "path",
-                    "start_line",
-                    "end_line",
-                    "start_column",
-                    "end_column",
-                    "blob_sha",
-                    "blob_url",
-                    "commit_sha",
-                    "commit_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217302,18 +218679,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'wiki_commit' secret scanning location type. This location type shows that a secret was detected inside a commit to a repository wiki.</p>",
-                  "isRequired": [
-                    "path",
-                    "start_line",
-                    "end_line",
-                    "start_column",
-                    "end_column",
-                    "blob_sha",
-                    "page_url",
-                    "commit_sha",
-                    "commit_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217373,10 +218740,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents an 'issue_title' secret scanning location type. This location type shows that a secret was detected in the title of an issue.</p>",
-                  "isRequired": [
-                    "issue_title_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217388,10 +218753,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents an 'issue_body' secret scanning location type. This location type shows that a secret was detected in the body of an issue.</p>",
-                  "isRequired": [
-                    "issue_body_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217403,10 +218766,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents an 'issue_comment' secret scanning location type. This location type shows that a secret was detected in a comment on an issue.</p>",
-                  "isRequired": [
-                    "issue_comment_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217418,10 +218779,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'discussion_title' secret scanning location type. This location type shows that a secret was detected in the title of a discussion.</p>",
-                  "isRequired": [
-                    "discussion_title_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217433,10 +218792,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'discussion_body' secret scanning location type. This location type shows that a secret was detected in the body of a discussion.</p>",
-                  "isRequired": [
-                    "discussion_body_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217448,10 +218805,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'discussion_comment' secret scanning location type. This location type shows that a secret was detected in a comment on a discussion.</p>",
-                  "isRequired": [
-                    "discussion_comment_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217463,10 +218818,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'pull_request_title' secret scanning location type. This location type shows that a secret was detected in the title of a pull request.</p>",
-                  "isRequired": [
-                    "pull_request_title_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217478,10 +218831,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'pull_request_body' secret scanning location type. This location type shows that a secret was detected in the body of a pull request.</p>",
-                  "isRequired": [
-                    "pull_request_body_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217493,10 +218844,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'pull_request_comment' secret scanning location type. This location type shows that a secret was detected in a comment on a pull request.</p>",
-                  "isRequired": [
-                    "pull_request_comment_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217508,10 +218857,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'pull_request_review' secret scanning location type. This location type shows that a secret was detected in a review on a pull request.</p>",
-                  "isRequired": [
-                    "pull_request_review_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
@@ -217523,10 +218870,8 @@
                 },
                 {
                   "type": "object",
+                  "name": "",
                   "description": "<p>Represents a 'pull_request_review_comment' secret scanning location type. This location type shows that a secret was detected in a review comment on a pull request.</p>",
-                  "isRequired": [
-                    "pull_request_review_comment_url"
-                  ],
                   "childParamsGroups": [
                     {
                       "type": "string",
